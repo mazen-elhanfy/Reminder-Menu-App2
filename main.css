@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 650px;
+    height: 900px;
+    background-color: #ddd;
+    position: relative;
+    margin: 50px auto;
+}
+.parent .edit{
+    color: dodgerblue;
+        text-transform: capitalize;
+        position: absolute;
+        left: 90%;
+        top: 5%;
+        font-size: 25px;
+}
+.parent .container{
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}.parent .container>div{
+    width: 100%;
+}
+.one{
+            height: 15%;
+            position: absolute;
+            left: 0;
+            top: 5%;
+        }
+
+.one input{
+    width: 100%;
+        height: 100%;
+        background-color: #b5b3b3;
+        border: 0;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        padding-left: 15px;
+        font-size: 30px;
+}
+.two{
+    height: 55%;
+    position: absolute;
+    left: 0;
+    top: 25%; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.two>div{
+    width: calc(95% / 2);
+    height: calc(95% / 2);
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+.two .first .fa-calendar-days{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    background-color: dodgerblue;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.two .number{
+    position: absolute;
+        left: 85%;
+        top: 15%;
+        font-size: 55px;
+        font-weight: bold
+}
+.two .time{
+    font-size: 25px;
+    color: #bbbaba;
+    position: absolute;
+    left: 5%;
+    top: 80%;
+}
+.two .second .fa-clock{
+        width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            color: #fff;
+            background-color: orange;
+            position: absolute;
+            left: 5%;
+            top: 15%;
+            padding: 10px;
+            text-transform: capitalize;
+}
+.two .third .fa-hard-drive{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: #fff;
+        background-color: #777;
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        padding: 10px;
+        text-transform: capitalize;
+}
+.two .fourth .fa-flag{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: #fff;
+        background-color: tomato;
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        padding: 10px;
+        text-transform: capitalize;
+}
+.three{
+    height: 25%;
+        position: absolute;
+        left: 0;
+        top: 82%;
+}
+.three h1{
+    position: absolute;
+    left: 2%;
+}
+.three .info{
+width: 100%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+}
+.three .info .one .fa-list{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    background-color: greenyellow;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    padding: 5px;
+    margin-left: 20px;
+}
+.three .info .one .do{
+        text-transform: capitalize;
+        font-size: 25px;
+        font-weight: bold;
+        transform: translate(90px, 10px);
+        -webkit-transform: translate(90px, 10px);
+        -moz-transform: translate(90px, 10px);
+        -ms-transform: translate(90px, 10px);
+        -o-transform: translate(90px, 10px);
+}
+.three .info .one .out{
+    color: #777;
+        text-transform: capitalize;
+        font-size: 25px;
+        font-weight: bold;
+        transform: translate(520px, -15px);
+}
+.three .info .two{
+    width: 400px;
+        height: 1px;
+        background-color: #ddd;
+        position: absolute;
+        left: 32%;
+        top: 55%;
+}
+.three .info .three .fa-list {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    background-color: orange;
+    position: absolute;
+    left: 15%;
+    top: -100%;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.three .info .three .do {
+text-transform: capitalize;
+    font-size: 25px;
+    position: absolute;
+    font-weight: bold;
+    left: 30%;
+    top: -50%;
+    transform: translateX(80px);
+}
+
+.three .info .three .out {
+    color: #777;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    transform: translate(520px, -15px);
+}
